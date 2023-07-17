@@ -8,5 +8,6 @@ The script Poly_Profiles.py was used to plot figures of indivudal trough profile
 The script Poly_Profiles_Auto.py was used to automate the calculation of trough metrics for the ~3000 trough profiles. 
 
 NOTE: Before running this code, update the x_min, x_left, and x_right values to match those of the first profile to be read. To do this, run the Poly_Profile.py script for the first profile and record these values.
+https://github.com/kal224/NPLD-trough-profiles/blob/2b83a07395b39be62d397ce16d4a608a4e5a9202/Poly_Profiles_Auto.py#L40C1-L42C22
 
 This code reads in a large batch of profile data, fits a polynomial to the first profile it finds, uses the input minimum trough point and shoulder points (identified using Poly_Profiles), then calculates the trough metrics defined in the paper. The next trough profile is then loaded and its minimum point and shoulder points are found by finding the calculated value closest to the previous value for the most-recently-loaded trough profile. Break points exist in the code to stop the loop if the values of the two troughs are too different, as this indicates that the code will most likely identify an incorrect minimum point and/or shoulder point. 
