@@ -1,0 +1,11 @@
+cff-version: 1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Lutz"
+  given-names: "Katherine Anne"
+  orcid: "https://orcid.org/0000-0003-1407-6631"
+title: "NPLD Trough Profile Metric Value Calculation"
+version: 1.0
+doi: 10.5281/zenodo.8157448
+date-released: 2023-07-17
+url: "https://github.com/kal224/NPLD-trough-profiles"
