@@ -117,9 +117,7 @@ for files in sorted(os.listdir(path_dir)):
         rightrelief_list.append(right_relief)
 
         #width calc -> distance hump to hump
-        base_1 = hypot(x_left - x_left, y_left - y_min)
-        base_2 = hypot(x_right - x_right, y_right - y_min)
-        width = base_1 + base_2
+        width = x_right - x_left
         width_list.append(width)
 
         #dept calc -> avg reflief value
